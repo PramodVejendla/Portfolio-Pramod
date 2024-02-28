@@ -1,0 +1,39 @@
+.navbar {
+  height: 80px;
+
+  .wrapper {
+    max-width: 1336px;
+    // padding: 0px 48px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  span {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+  .menu {
+    ul {
+      display: flex;
+      // justify-content: center;
+      // align-items: center;
+    }
+    li {
+      list-style: none;
+      font-size: 18px;
+      padding: 0px 20px;
+    }
+  }
+  .social {
+    display: flex;
+    gap: 30px;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
