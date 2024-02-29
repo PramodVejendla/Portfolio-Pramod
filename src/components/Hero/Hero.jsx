@@ -19,7 +19,7 @@ const ImageVariants = {
 const textVariants = {
   initial: {
     x: -500,
-    opacity: 0,
+    opacity: 0.5,
   },
   animate: {
     x: 0,
@@ -30,7 +30,7 @@ const textVariants = {
     },
   },
   scrollButton: {
-    opacity: 0,
+    opacity: 0.5,
     y: 10,
     transition: {
       duration: 2,
@@ -39,6 +39,15 @@ const textVariants = {
   },
   slidingText: {
     x: -1500,
+    opacity: 1,
+    transition: {
+      duration: 20,
+      repeat: Infinity,
+      repeatType: "mirror",
+    },
+  },
+  slidingTextTop: {
+    x: 1500,
     opacity: 1,
     transition: {
       duration: 20,
@@ -57,7 +66,7 @@ function Hero() {
             className="slidingtextContainerTop"
             variants={textVariants}
             initial="initial"
-            animate="slidingText"
+            animate="slidingTextTop"
           >
             React.js Node.js Next.js MongoDB
           </motion.div>
@@ -71,9 +80,8 @@ function Hero() {
               M E R N Stack Developer
             </motion.h2>
             <motion.h1 variants={textVariants}>
-              Hello, I'm Pramod Vejendla. <br /> I'm a fullstack web developer.
-              <br /> I enjoy building websites & apps. <br />
-              My focus is React and Node.
+              Hello, I'm Pramod Vejendla. I'm a fullstack web developer. I enjoy
+              building websites & apps. <br /> My focus is React and Node.
             </motion.h1>
             <motion.div className="buttons" variants={textVariants}>
               <motion.button variants={textVariants}>Latest Work</motion.button>

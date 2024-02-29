@@ -1,9 +1,14 @@
 .navbar {
   height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 
   .wrapper {
-    max-width: 1336px;
-    // padding: 0px 48px;
+    // max-width: 1336px;
+    padding: 0px 48px;
     margin: auto;
     display: flex;
     align-items: center;

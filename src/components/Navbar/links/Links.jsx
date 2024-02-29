@@ -2,23 +2,23 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function Links() {
-  const items = ["Homepage", "Resume", "Projects", "About", "Contact"];
+  const items = ["Homepage", "About", "Skills", "Projects", "Contact"];
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
       style={{
-        backgroundColor: "#4d4d52",
+        backgroundColor: "rgba(64, 64, 64, 0.5)",
         borderRadius: "50px",
-        padding: "10px 20px",
+        padding: "16px 24px",
       }}
     >
       {items.map((item) => (
         <a
           style={{
-            paddingLeft: 15,
-            paddingRight: 15,
+            padding: "0px 24px",
+            fontSize: "18px",
           }}
           href={`#${item}`}
           key={item}

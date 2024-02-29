@@ -6,7 +6,8 @@
 
   .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 40px;
     max-width: 1336px;
     height: 100%;
     margin: auto;
@@ -49,23 +50,22 @@
     justify-content: center;
     align-items: center;
     img {
-      width: 60%;
+      width: 80%;
       border-radius: 20px;
     }
   }
   .slidingtextContainer {
     position: absolute;
     font-size: 40vh;
-    bottom: -40px;
+    bottom: -80px;
     white-space: nowrap;
     color: #ffffff08;
   }
   .slidingtextContainerTop {
     position: absolute;
     font-size: 20vh;
-    top: -40px;
+    top: 10px;
     white-space: nowrap;
     color: #ffffff08;
-    width: 50%;
   }
 }
