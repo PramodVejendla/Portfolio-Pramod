@@ -5,20 +5,22 @@
   position: relative;
 
   .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     max-width: 1336px;
     height: 100%;
     margin: auto;
 
     .textContainer {
       height: 100%;
-      width: 50%;
+      // width: 50%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 40px;
     }
     h1 {
-      font-size: 88px;
+      font-size: 36px;
     }
     h2 {
       font-size: 36px;
@@ -34,7 +36,7 @@
         color: white;
         margin-right: 20px;
         cursor: pointer;
-        font-weight: 300;
+        font-weight: 500;
       }
     }
     img {
@@ -43,10 +45,13 @@
   }
 
   .imageContainer {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 60%;
+      border-radius: 20px;
+    }
   }
   .slidingtextContainer {
     position: absolute;
@@ -54,5 +59,13 @@
     bottom: -40px;
     white-space: nowrap;
     color: #ffffff08;
+  }
+  .slidingtextContainerTop {
+    position: absolute;
+    font-size: 20vh;
+    top: -40px;
+    white-space: nowrap;
+    color: #ffffff08;
+    width: 50%;
   }
 }

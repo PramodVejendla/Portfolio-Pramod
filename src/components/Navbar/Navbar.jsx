@@ -17,19 +17,6 @@ function Navbar() {
           WELCOME
         </motion.span>
         <Links />
-        {/* <div className="menu">
-          <motion.ul
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-          >
-            <li>About</li>
-            <li>Projects</li>
-            <li>Resume</li>
-            <li>Skills</li>
-            <li>Contact</li>
-          </motion.ul>
-        </div> */}
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
