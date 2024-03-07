@@ -35,10 +35,6 @@ function Projects() {
           </div>
         </a>
       </div>
-
-      {/* <div className="project2">2</div> */}
-      {/* <div className="project3">3</div> */}
-      {/* <div className="project4">4</div> */}
     </div>
   );
 }

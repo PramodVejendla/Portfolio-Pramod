@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Parallax from "./components/Parallax/Parallax";
 import About from "./components/Sections/About";
+import Contact from "./components/Sections/Contact";
 import Projects from "./components/Sections/Projects";
 import Skills from "./components/Sections/Skills";
 
@@ -30,7 +31,10 @@ const App = () => {
         <Projects />
       </section>
 
-      <section id="Contact">Contact</section>
+      <section id="Contacts">
+        {" "}
+        <Contact />{" "}
+      </section>
     </div>
   );
 };

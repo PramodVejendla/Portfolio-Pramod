@@ -1,0 +1,45 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  h1 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 20px;
+  }
+  span {
+    text-decoration: underline;
+  }
+  .email {
+    width: 50%;
+    height: 50px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: 20px;
+    ::placeholder {
+      color: gray;
+    }
+  }
+  .message {
+    width: 50%;
+    height: 200px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: 20px;
+
+    ::placeholder {
+      color: gray;
+    }
+  }
+}

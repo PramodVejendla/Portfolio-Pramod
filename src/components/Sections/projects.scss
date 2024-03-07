@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  padding: 150px 150px 100px 150px;
+  padding: 120px 150px 100px 150px;
   gap: 50px;
   background-image: url(../../../stars.png);
   background-size: cover;
@@ -14,6 +14,10 @@
     justify-content: center;
     align-items: center;
     // padding-top: 100px;
+    :hover {
+      transition: all 0.2s;
+      transform: translateY(-3px);
+    }
     img {
       max-width: 600px;
     }

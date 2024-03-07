@@ -1,8 +1,8 @@
 import "./links.scss";
-import { motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
 
 function Links() {
-  const items = ["Homepage", "About", "Skills", "Projects", "Contact"];
+  const items = ["Homepage", "About", "Skills", "Projects", "Contacts"];
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
