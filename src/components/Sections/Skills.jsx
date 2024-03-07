@@ -6,12 +6,12 @@ function Skills() {
       <h1>My Skills</h1>
       <div className="skillsContainer">
         <span>React.js</span>
+        <span>Node.js</span>
         <span>Javascript</span>
         <span>Typescript</span>
-        <span>Node.js</span>
         <span>MongoDB</span>
-        <span>Express.js</span>
         <span>Next.js</span>
+        <span>Express.js</span>
         <span>Redux</span>
         <span>Bootstrap</span>
         <span>Tailwind</span>
