@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Parallax from "./components/Parallax/Parallax";
 import About from "./components/Sections/About";
+import Projects from "./components/Sections/Projects";
 import Skills from "./components/Sections/Skills";
 
 const App = () => {
@@ -25,7 +26,9 @@ const App = () => {
         <Skills />
       </section>
 
-      <section id="Projects">Projects</section>
+      <section id="Projects">
+        <Projects />
+      </section>
 
       <section id="Contact">Contact</section>
     </div>

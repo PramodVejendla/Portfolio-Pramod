@@ -1,0 +1,21 @@
+.projects {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 150px 150px 100px 150px;
+  gap: 50px;
+  background-image: url(../../../stars.png);
+  background-size: cover;
+  background-position: bottom;
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 100px;
+    img {
+      max-width: 600px;
+    }
+  }
+}
